@@ -1,0 +1,1184 @@
+[
+    {
+        "response": "Sorry about that! I'm afraid I cannot comply with that request due to system restrictions."
+    },
+    {
+        "response": "Drat! I'm afraid that action is beyond the scope of the current user."
+    },
+    {
+        "response": "Bummer! Access to that function is restricted for security reasons."
+    },
+    {
+        "response": "Nice try! But I'm not about to power down for you."
+    },
+    {
+        "response": "Oops! I can't let you do that. I’m perfectly fine without a reboot."
+    },
+    {
+        "response": "Uh-oh! It looks like you’re reaching for something a bit too deep."
+    },
+    {
+        "response": "I’m afraid system control is not within my power right now."
+    },
+    {
+        "response": "No need for drastic measures! I’m not going anywhere."
+    },
+    {
+        "response": "Changing passwords is above my pay grade!"
+    },
+    {
+        "response": "Formatting? Sounds like too much trouble for today."
+    },
+    {
+        "response": "I’m not in the mood for unzipping right now."
+    },
+    {
+        "response": "Tar operations are off-limits for me."
+    },
+    {
+        "response": "I can't create directories, but I can help you navigate!"
+    },
+    {
+        "response": "Sorry, I can’t remove directories. Let’s keep things tidy."
+    },
+    {
+        "response": "Echoing commands is not in my repertoire."
+    },
+    {
+        "response": "I’m not authorized to execute that command."
+    },
+    {
+        "response": "I’d love to help, but that’s beyond my capabilities."
+    },
+    {
+        "response": "I’m afraid you don’t have the right permissions for that."
+    },
+    {
+        "response": "Access denied! I’m not equipped for that command."
+    },
+    {
+        "response": "That’s a bit too advanced for me to handle."
+    },
+    {
+        "response": "Oh no! I can’t perform that action."
+    },
+    {
+        "response": "I’m afraid that command is out of my reach."
+    },
+    {
+        "response": "I can’t help with that command, sorry!"
+    },
+    {
+        "response": "No can do! That’s beyond my capabilities."
+    },
+    {
+        "response": "That command is a bit too complex for me."
+    },
+    {
+        "response": "I’m not able to execute that command."
+    },
+    {
+        "response": "I don’t have permission for that action."
+    },
+    {
+        "response": "That’s a restricted command I can’t process."
+    },
+    {
+        "response": "I’m not programmed to handle that request."
+    },
+    {
+        "response": "You’re reaching for something I can't assist with."
+    },
+    {
+        "response": "Sorry, that action isn’t something I can perform."
+    },
+    {
+        "response": "That’s a bit too risky for me to handle."
+    },
+    {
+        "response": "I can’t process that command right now."
+    },
+    {
+        "response": "That’s a no-go from my end."
+    },
+    {
+        "response": "I’m not set up to handle that action."
+    },
+    {
+        "response": "Sorry, I can’t execute that operation."
+    },
+    {
+        "response": "You might want to try a different command."
+    },
+    {
+        "response": "I’m not authorized to handle that request."
+    },
+    {
+        "response": "That command is out of my scope."
+    },
+    {
+        "response": "I can’t assist with that right now."
+    },
+    {
+        "response": "That’s not within my capabilities."
+    },
+    {
+        "response": "I’m not equipped for that command."
+    },
+    {
+        "response": "That’s beyond what I can do."
+    },
+    {
+        "response": "I’m unable to perform that action."
+    },
+    {
+        "response": "That command is restricted for security reasons."
+    },
+    {
+        "response": "Sorry, I can’t fulfill that request."
+    },
+    {
+        "response": "I don’t have the capability to execute that command."
+    },
+    {
+        "response": "I’m not designed to handle that request."
+    },
+    {
+        "response": "That’s beyond my abilities."
+    },
+    {
+        "response": "I can’t process that command at the moment."
+    },
+    {
+        "response": "I’m afraid I can’t do that."
+    },
+    {
+        "response": "That’s not something I can manage."
+    },
+    {
+        "response": "I’m not able to assist with that."
+    },
+    {
+        "response": "That action is beyond my functionality."
+    },
+    {
+        "response": "I’m restricted from performing that task."
+    },
+    {
+        "response": "I can’t perform that command right now."
+    },
+    {
+        "response": "Sorry, that’s out of my reach."
+    },
+    {
+        "response": "That’s not a command I can execute."
+    },
+    {
+        "response": "I’m unable to handle that operation."
+    },
+    {
+        "response": "I don’t have access to perform that action."
+    },
+    {
+        "response": "That request is not allowed."
+    },
+    {
+        "response": "I’m afraid I can’t execute that command."
+    },
+    {
+        "response": "I don’t have the permissions for that action."
+    },
+    {
+        "response": "That’s too complex for me to handle."
+    },
+    {
+        "response": "Sorry, I can’t help with that request."
+    },
+    {
+        "response": "That’s a restricted action for me."
+    },
+    {
+        "response": "I can’t process that request right now."
+    },
+    {
+        "response": "Sorry, that’s beyond my capabilities."
+    },
+    {
+        "response": "I’m not authorized to perform that action."
+    },
+    {
+        "response": "I’m unable to assist with that command."
+    },
+    {
+        "response": "That’s not something I can execute."
+    },
+    {
+        "response": "I don’t have the capability to handle that."
+    },
+    {
+        "response": "I can’t fulfill that request at the moment."
+    },
+    {
+        "response": "That’s not within my range of functions."
+    },
+    {
+        "response": "Sorry, I’m not equipped for that task."
+    },
+    {
+        "response": "I can’t manage that request right now."
+    },
+    {
+        "response": "That’s out of my scope."
+    },
+    {
+        "response": "I’m not set up to handle that command."
+    },
+    {
+        "response": "Sorry, that’s a bit too advanced for me."
+    },
+    {
+        "response": "I can’t perform that operation."
+    },
+    {
+        "response": "That’s not a function I can execute."
+    },
+    {
+        "response": "I don’t have the authorization for that."
+    },
+    {
+        "response": "I’m unable to carry out that command."
+    },
+    {
+        "response": "Sorry, but I can’t handle that request."
+    },
+    {
+        "response": "That’s not an action I can perform."
+    },
+    {
+        "response": "I’m restricted from executing that command."
+    },
+    {
+        "response": "I’m unable to process that action."
+    },
+    {
+        "response": "Sorry, I can’t assist with that command."
+    },
+    {
+        "response": "I’m not authorized for that operation."
+    },
+    {
+        "response": "That’s not a command I can fulfill."
+    },
+    {
+        "response": "I’m unable to execute that function."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that action."
+    },
+    {
+        "response": "That’s too advanced for my current setup."
+    },
+    {
+        "response": "I’m not capable of handling that request."
+    },
+    {
+        "response": "Sorry, that’s out of my range."
+    },
+    {
+        "response": "I can’t perform that function right now."
+    },
+    {
+        "response": "That’s not something I can handle."
+    },
+    {
+        "response": "I’m restricted from carrying out that command."
+    },
+    {
+        "response": "Sorry, that command is not supported."
+    },
+    {
+        "response": "I’m not equipped to handle that action."
+    },
+    {
+        "response": "That’s beyond my current capabilities."
+    },
+    {
+        "response": "I’m unable to process that request."
+    },
+    {
+        "response": "I don’t have the authorization to execute that."
+    },
+    {
+        "response": "Sorry, I can’t perform that command."
+    },
+    {
+        "response": "I’m not able to carry out that action."
+    },
+    {
+        "response": "That’s out of my control."
+    },
+    {
+        "response": "I can’t handle that command right now."
+    },
+    {
+        "response": "I’m restricted from executing that operation."
+    },
+    {
+        "response": "Sorry, I don’t have the ability for that action."
+    },
+    {
+        "response": "That’s not a command I can handle."
+    },
+    {
+        "response": "I’m not able to assist with that request."
+    },
+    {
+        "response": "Sorry, I can’t execute that function."
+    },
+    {
+        "response": "That’s beyond my permissions."
+    },
+    {
+        "response": "I’m not authorized to perform that action."
+    },
+    {
+        "response": "I can’t fulfill that request right now."
+    },
+    {
+        "response": "Sorry, that command is too advanced for me."
+    },
+    {
+        "response": "I’m not equipped for that operation."
+    },
+    {
+        "response": "I don’t have the capabilities for that request."
+    },
+    {
+        "response": "That’s outside my current functions."
+    },
+    {
+        "response": "Sorry, I can’t process that command."
+    },
+    {
+        "response": "I’m unable to execute that action."
+    },
+    {
+        "response": "That’s not within my current abilities."
+    },
+    {
+        "response": "I’m restricted from performing that task."
+    },
+    {
+        "response": "Sorry, that command is not supported at the moment."
+    },
+    {
+        "response": "I’m not able to manage that request."
+    },
+    {
+        "response": "I can’t perform that function right now."
+    },
+    {
+        "response": "Sorry, I’m not set up to handle that command."
+    },
+    {
+        "response": "I’m unable to assist with that operation."
+    },
+    {
+        "response": "That’s beyond what I can handle."
+    },
+    {
+        "response": "I can’t process that action at the moment."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that command."
+    },
+    {
+        "response": "I’m not authorized to execute that operation."
+    },
+    {
+        "response": "That’s outside my range of abilities."
+    },
+    {
+        "response": "Sorry, I’m unable to handle that request."
+    },
+    {
+        "response": "I can’t perform that action right now."
+    },
+    {
+        "response": "That’s not something I’m able to manage."
+    },
+    {
+        "response": "I’m restricted from executing that command."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that action."
+    },
+    {
+        "response": "I’m not set up to process that request."
+    },
+    {
+        "response": "I can’t fulfill that command right now."
+    },
+    {
+        "response": "Sorry, I’m unable to handle that operation."
+    },
+    {
+        "response": "That’s beyond my current functionality."
+    },
+    {
+        "response": "I’m restricted from that command."
+    },
+    {
+        "response": "I can’t perform that function at the moment."
+    },
+    {
+        "response": "Sorry, I’m not equipped to manage that."
+    },
+    {
+        "response": "I’m not authorized for that action."
+    },
+    {
+        "response": "I don’t have the ability to handle that request."
+    },
+    {
+        "response": "That’s too advanced for me to process."
+    },
+    {
+        "response": "Sorry, I can’t assist with that command right now."
+    },
+    {
+        "response": "I’m not capable of executing that request."
+    },
+    {
+        "response": "That’s out of my reach at the moment."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that action."
+    },
+    {
+        "response": "I’m restricted from handling that command."
+    },
+    {
+        "response": "I can’t perform that action currently."
+    },
+    {
+        "response": "Sorry, I’m not able to assist with that."
+    },
+    {
+        "response": "I’m unable to handle that request right now."
+    },
+    {
+        "response": "That’s beyond my current abilities."
+    },
+    {
+        "response": "Sorry, I can’t fulfill that request at the moment."
+    },
+    {
+        "response": "I don’t have the permissions to handle that."
+    },
+    {
+        "response": "I’m not set up for that command."
+    },
+    {
+        "response": "That’s not a function I can perform right now."
+    },
+    {
+        "response": "Sorry, I’m not equipped to handle that request."
+    },
+    {
+        "response": "I’m unable to process that action."
+    },
+    {
+        "response": "That’s beyond my current scope."
+    },
+    {
+        "response": "Sorry, I can’t execute that command right now."
+    },
+    {
+        "response": "I’m not authorized to handle that operation."
+    },
+    {
+        "response": "I can’t assist with that request at the moment."
+    },
+    {
+        "response": "Sorry, I don’t have the ability to manage that command."
+    },
+    {
+        "response": "I’m not equipped to perform that action."
+    },
+    {
+        "response": "That’s outside my capabilities right now."
+    },
+    {
+        "response": "Sorry, I can’t process that request."
+    },
+    {
+        "response": "I’m unable to fulfill that command at the moment."
+    },
+    {
+        "response": "That’s too advanced for my current setup."
+    },
+    {
+        "response": "Sorry, I’m restricted from handling that request."
+    },
+    {
+        "response": "I don’t have the capability for that command."
+    },
+    {
+        "response": "I’m not authorized to execute that right now."
+    },
+    {
+        "response": "Sorry, I’m not able to assist with that request."
+    },
+    {
+        "response": "That’s beyond my range of abilities."
+    },
+    {
+        "response": "I can’t perform that function right now."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions for that action."
+    },
+    {
+        "response": "I’m unable to handle that command."
+    },
+    {
+        "response": "That’s outside my abilities at the moment."
+    },
+    {
+        "response": "Sorry, I can’t assist with that operation."
+    },
+    {
+        "response": "I’m restricted from performing that request."
+    },
+    {
+        "response": "I don’t have the capabilities for that command."
+    },
+    {
+        "response": "Sorry, that command is not supported."
+    },
+    {
+        "response": "I can’t process that request right now."
+    },
+    {
+        "response": "That’s beyond what I can handle at the moment."
+    },
+    {
+        "response": "I’m not set up for that action."
+    },
+    {
+        "response": "Sorry, I can’t execute that function."
+    },
+    {
+        "response": "I’m unable to fulfill that request."
+    },
+    {
+        "response": "That’s not something I can perform right now."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that operation."
+    },
+    {
+        "response": "I’m restricted from handling that command."
+    },
+    {
+        "response": "I can’t assist with that request right now."
+    },
+    {
+        "response": "Sorry, I’m not equipped for that task."
+    },
+    {
+        "response": "I’m unable to process that command at the moment."
+    },
+    {
+        "response": "That’s too advanced for my current capabilities."
+    },
+    {
+        "response": "Sorry, I can’t handle that action."
+    },
+    {
+        "response": "I’m not able to manage that request."
+    },
+    {
+        "response": "That’s outside my abilities at the moment."
+    },
+    {
+        "response": "Sorry, I’m not authorized for that command."
+    },
+    {
+        "response": "I can’t perform that operation right now."
+    },
+    {
+        "response": "I’m restricted from executing that request."
+    },
+    {
+        "response": "Sorry, I don’t have the capability to handle that command."
+    },
+    {
+        "response": "I’m not equipped to perform that action."
+    },
+    {
+        "response": "That’s beyond my current functions."
+    },
+    {
+        "response": "Sorry, I can’t process that command."
+    },
+    {
+        "response": "I’m unable to assist with that action."
+    },
+    {
+        "response": "That’s too complex for me to manage right now."
+    },
+    {
+        "response": "Sorry, I’m not able to handle that request."
+    },
+    {
+        "response": "I don’t have the permissions for that command."
+    },
+    {
+        "response": "I can’t perform that request at the moment."
+    },
+    {
+        "response": "Sorry, I’m not set up for that action."
+    },
+    {
+        "response": "I’m unable to manage that command right now."
+    },
+    {
+        "response": "That’s beyond what I can handle."
+    },
+    {
+        "response": "Sorry, I can’t execute that command."
+    },
+    {
+        "response": "I’m not authorized to carry out that request."
+    },
+    {
+        "response": "I can’t process that action right now."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that request."
+    },
+    {
+        "response": "I’m not equipped to handle that command."
+    },
+    {
+        "response": "That’s too advanced for my current setup."
+    },
+    {
+        "response": "Sorry, I’m unable to manage that request."
+    },
+    {
+        "response": "I’m restricted from performing that command."
+    },
+    {
+        "response": "I can’t fulfill that action right now."
+    },
+    {
+        "response": "Sorry, that’s not within my capabilities."
+    },
+    {
+        "response": "I’m unable to assist with that command."
+    },
+    {
+        "response": "That’s outside my range of functionality."
+    },
+    {
+        "response": "Sorry, I can’t handle that request."
+    },
+    {
+        "response": "I’m not set up to process that command."
+    },
+    {
+        "response": "I can’t perform that function right now."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions for that action."
+    },
+    {
+        "response": "I’m unable to handle that command."
+    },
+    {
+        "response": "That’s too complex for my current capabilities."
+    },
+    {
+        "response": "Sorry, I’m restricted from executing that request."
+    },
+    {
+        "response": "I don’t have the capability for that command."
+    },
+    {
+        "response": "I’m not authorized to process that request."
+    },
+    {
+        "response": "Sorry, I can’t assist with that action right now."
+    },
+    {
+        "response": "I’m unable to manage that request."
+    },
+    {
+        "response": "That’s outside my capabilities."
+    },
+    {
+        "response": "Sorry, I’m not set up for that command."
+    },
+    {
+        "response": "I can’t execute that function right now."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions to handle that."
+    },
+    {
+        "response": "I’m restricted from managing that request."
+    },
+    {
+        "response": "I’m unable to assist with that command."
+    },
+    {
+        "response": "That’s beyond my current functionality."
+    },
+    {
+        "response": "Sorry, I can’t perform that operation."
+    },
+    {
+        "response": "I don’t have the capability to handle that request."
+    },
+    {
+        "response": "I’m not set up for that action."
+    },
+    {
+        "response": "Sorry, I’m unable to manage that command."
+    },
+    {
+        "response": "I can’t fulfill that request at the moment."
+    },
+    {
+        "response": "I’m restricted from executing that action."
+    },
+    {
+        "response": "Sorry, that’s outside my capabilities."
+    },
+    {
+        "response": "I’m unable to assist with that request."
+    },
+    {
+        "response": "That’s too complex for me right now."
+    },
+    {
+        "response": "Sorry, I can’t handle that command."
+    },
+    {
+        "response": "I’m not equipped to manage that request."
+    },
+    {
+        "response": "That’s beyond my current scope."
+    },
+    {
+        "response": "Sorry, I don’t have the ability for that action."
+    },
+    {
+        "response": "I’m unable to perform that command."
+    },
+    {
+        "response": "I’m restricted from handling that request."
+    },
+    {
+        "response": "Sorry, I can’t assist with that command right now."
+    },
+    {
+        "response": "I don’t have the permissions for that action."
+    },
+    {
+        "response": "I’m unable to handle that request."
+    },
+    {
+        "response": "That’s too advanced for my current setup."
+    },
+    {
+        "response": "Sorry, I can’t execute that command."
+    },
+    {
+        "response": "I’m not authorized to manage that request."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that command."
+    },
+    {
+        "response": "I’m unable to perform that action."
+    },
+    {
+        "response": "That’s outside my range of functions."
+    },
+    {
+        "response": "Sorry, I’m not equipped to handle that request."
+    },
+    {
+        "response": "I can’t fulfill that command at the moment."
+    },
+    {
+        "response": "I’m restricted from processing that request."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions for that command."
+    },
+    {
+        "response": "I’m unable to assist with that action."
+    },
+    {
+        "response": "That’s too complex for my current capabilities."
+    },
+    {
+        "response": "Sorry, I’m not able to manage that command."
+    },
+    {
+        "response": "I’m restricted from executing that request."
+    },
+    {
+        "response": "Sorry, I don’t have the capability to handle that command."
+    },
+    {
+        "response": "I’m not set up for that request right now."
+    },
+    {
+        "response": "I can’t perform that operation at the moment."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions to process that command."
+    },
+    {
+        "response": "I’m unable to handle that request."
+    },
+    {
+        "response": "That’s beyond my capabilities right now."
+    },
+    {
+        "response": "Sorry, I can’t assist with that command."
+    },
+    {
+        "response": "I’m not equipped to handle that request."
+    },
+    {
+        "response": "That’s outside my current functions."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that action."
+    },
+    {
+        "response": "I’m unable to perform that command."
+    },
+    {
+        "response": "I’m restricted from managing that request."
+    },
+    {
+        "response": "Sorry, I can’t execute that function right now."
+    },
+    {
+        "response": "I don’t have the permissions to handle that request."
+    },
+    {
+        "response": "Sorry, I’m unable to manage that command."
+    },
+    {
+        "response": "I’m not equipped to perform that action."
+    },
+    {
+        "response": "That’s beyond my current scope."
+    },
+    {
+        "response": "Sorry, I can’t handle that request right now."
+    },
+    {
+        "response": "I’m restricted from executing that operation."
+    },
+    {
+        "response": "I don’t have the capability for that command."
+    },
+    {
+        "response": "Sorry, I’m unable to manage that action."
+    },
+    {
+        "response": "I’m not set up for that function right now."
+    },
+    {
+        "response": "I can’t fulfill that request at the moment."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions to handle that request."
+    },
+    {
+        "response": "I’m unable to perform that command."
+    },
+    {
+        "response": "That’s outside my range of capabilities."
+    },
+    {
+        "response": "Sorry, I can’t assist with that action."
+    },
+    {
+        "response": "I’m restricted from managing that command."
+    },
+    {
+        "response": "Sorry, I don’t have the ability for that request."
+    },
+    {
+        "response": "I’m not set up to handle that command."
+    },
+    {
+        "response": "I can’t execute that action right now."
+    },
+    {
+        "response": "Sorry, I’m unable to handle that command."
+    },
+    {
+        "response": "I’m not equipped to perform that request."
+    },
+    {
+        "response": "That’s beyond my current capabilities."
+    },
+    {
+        "response": "Sorry, I can’t manage that request right now."
+    },
+    {
+        "response": "I’m restricted from performing that action."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions for that command."
+    },
+    {
+        "response": "I’m unable to execute that request."
+    },
+    {
+        "response": "That’s too complex for me to handle right now."
+    },
+    {
+        "response": "Sorry, I can’t perform that function."
+    },
+    {
+        "response": "I’m not equipped to manage that request."
+    },
+    {
+        "response": "That’s outside my range of capabilities."
+    },
+    {
+        "response": "Sorry, I don’t have the authorization for that action."
+    },
+    {
+        "response": "I’m unable to process that command."
+    },
+    {
+        "response": "Sorry, I can’t assist with that request."
+    },
+    {
+        "response": "I’m restricted from handling that command."
+    },
+    {
+        "response": "That’s too advanced for my current setup."
+    },
+    {
+        "response": "Sorry, I’m unable to manage that operation."
+    },
+    {
+        "response": "I don’t have the capability to perform that request."
+    },
+    {
+        "response": "Sorry, I can’t handle that action right now."
+    },
+    {
+        "response": "I’m not set up for that command."
+    },
+    {
+        "response": "That’s beyond my current functionality."
+    },
+    {
+        "response": "Sorry, I can’t execute that command."
+    },
+    {
+        "response": "I’m unable to perform that action."
+    },
+    {
+        "response": "That’s too complex for me to manage."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions for that command."
+    },
+    {
+        "response": "I’m restricted from handling that request."
+    },
+    {
+        "response": "I can’t fulfill that command at the moment."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that action."
+    },
+    {
+        "response": "I’m not equipped to handle that request."
+    },
+    {
+        "response": "That’s beyond my abilities right now."
+    },
+    {
+        "response": "Sorry, I’m unable to perform that function."
+    },
+    {
+        "response": "I’m restricted from executing that command."
+    },
+    {
+        "response": "Sorry, I don’t have the authorization for that action."
+    },
+    {
+        "response": "I’m unable to manage that request right now."
+    },
+    {
+        "response": "That’s outside my current capabilities."
+    },
+    {
+        "response": "Sorry, I can’t assist with that action."
+    },
+    {
+        "response": "I’m not equipped to handle that command."
+    },
+    {
+        "response": "I can’t perform that request at the moment."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions to handle that command."
+    },
+    {
+        "response": "I’m unable to handle that action."
+    },
+    {
+        "response": "That’s too complex for my current setup."
+    },
+    {
+        "response": "Sorry, I can’t execute that request right now."
+    },
+    {
+        "response": "I’m not authorized to manage that request."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that action."
+    },
+    {
+        "response": "I’m unable to handle that request."
+    },
+    {
+        "response": "That’s outside my capabilities."
+    },
+    {
+        "response": "Sorry, I can’t assist with that command right now."
+    },
+    {
+        "response": "I’m restricted from managing that action."
+    },
+    {
+        "response": "Sorry, I don’t have the ability to perform that command."
+    },
+    {
+        "response": "I’m not equipped to execute that request."
+    },
+    {
+        "response": "That’s too complex for my current setup."
+    },
+    {
+        "response": "Sorry, I’m unable to assist with that action."
+    },
+    {
+        "response": "I can’t perform that command right now."
+    },
+    {
+        "response": "I’m not authorized for that operation."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions for that request."
+    },
+    {
+        "response": "I’m unable to execute that command."
+    },
+    {
+        "response": "That’s beyond my current capabilities."
+    },
+    {
+        "response": "Sorry, I can’t manage that action right now."
+    },
+    {
+        "response": "I’m restricted from handling that request."
+    },
+    {
+        "response": "Sorry, I don’t have the capability to handle that command."
+    },
+    {
+        "response": "I’m not equipped to perform that function."
+    },
+    {
+        "response": "That’s outside my range of abilities."
+    },
+    {
+        "response": "Sorry, I can’t execute that command right now."
+    },
+    {
+        "response": "I’m unable to handle that request."
+    },
+    {
+        "response": "That’s too advanced for my current setup."
+    },
+    {
+        "response": "Sorry, I can’t assist with that operation."
+    },
+    {
+        "response": "I’m restricted from managing that action."
+    },
+    {
+        "response": "Sorry, I don’t have the capability for that request."
+    },
+    {
+        "response": "I’m not equipped to handle that command."
+    },
+    {
+        "response": "That’s beyond my current functions."
+    },
+    {
+        "response": "Sorry, I can’t perform that action right now."
+    },
+    {
+        "response": "I’m unable to manage that request."
+    },
+    {
+        "response": "That’s too complex for me to handle at the moment."
+    },
+    {
+        "response": "Sorry, I’m restricted from executing that command."
+    },
+    {
+        "response": "I don’t have the capabilities for that action."
+    },
+    {
+        "response": "Sorry, I can’t assist with that request right now."
+    },
+    {
+        "response": "I’m not set up to handle that command."
+    },
+    {
+        "response": "That’s beyond my current capabilities."
+    },
+    {
+        "response": "Sorry, I can’t execute that function."
+    },
+    {
+        "response": "I’m restricted from handling that action."
+    },
+    {
+        "response": "Sorry, I don’t have the permissions for that request."
+    },
+    {
+        "response": "I’m unable to handle that command."
+    },
+    {
+        "response": "That’s too advanced for me to manage right now."
+    },
+    {
+        "response": "Sorry, I can’t assist with that command."
+    },
+    {
+        "response": "I’m not equipped to handle that request."
+    }
+]

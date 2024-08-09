@@ -1,0 +1,150 @@
+body {
+    /* background-color: rgb(155, 232, 228); */
+    /* background-image: linear-gradient(to bottom right, rgb(155, 232, 228), yellow); */
+    font-family: "Fira Mono"; /* Changed to a simpler font */
+    font-size: medium; /* Adjusted font size */
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    line-height: 1.2em;
+    align-items: center;
+    height: 100vh;
+    animation: gradientAnimation 15s ease infinite;
+    color: #c5c8c6;
+    background-size: 400% 400%;
+    background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
+}
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
+    }
+    25% {
+        background: linear-gradient(to top left, yellow, rgb(155, 232, 228));
+    }
+    50% {
+        background: linear-gradient(to bottom, rgb(155, 232, 228), yellow);
+    }
+    75% {
+        background: linear-gradient(to right, rgb(155, 232, 228), yellow);
+    }
+    100% {
+        background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
+    }
+}
+
+.terminal {
+    background-color: #2e3436;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%; /* Increased from 80% for better responsiveness */
+    max-width: 900px;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: #c5c8c6;
+    height: auto;
+    min-height: 80%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e3436;
+    padding: 10px;
+    font-size: 1em;
+    border-bottom: 2px solid #3e3e3e;
+    margin-bottom: 20px; /* Adjusted margin for smaller screens */
+}
+
+.nav-icons {
+    padding-left: 10px; /* Reduced padding */
+    color: #f0c674;
+}
+
+.nav-path {
+    padding-right: 10px; /* Reduced padding */
+    color: #81a2be;
+}
+
+.header p {
+    margin: 0;
+}
+
+.user {
+    color: #90e430;
+}
+
+.main {
+    color: #f1f159;
+}
+
+.symbol {
+    color: #f0c674;
+}
+
+.command {
+    color: #81a2be;
+}
+
+.body-text {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.userinput {
+    font-family: "Fira Mono", monospace; 
+    border: none;
+    font-size: medium;
+    background-color: transparent;
+    color: #81a2be;
+    outline: none;
+    width: 50%;  
+}
+
+.userinput::placeholder {
+    color: #c5c8c6;
+    opacity: 0.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about {
+        font-size: 1em; /* Adjust font size */
+    }
+
+    .terminal {
+        padding: 10px; /* Adjust padding */
+    }
+
+    .userinput {
+        width: 100%; /* Ensure full width on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .terminal {
+        height: 130%;
+    }
+    .about {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start;
+    }
+
+    .nav-icons {
+        margin-bottom: 5px; /* Add margin to separate items */
+    }
+
+    .nav-path {
+        margin-bottom: 5px; /* Add margin to separate items */
+    }
+
+    .header p {
+        font-size: 1em; /* Adjust font size */
+    }
+
+    .userinput {
+        font-size: 1em; /* Adjust font size for the input */
+    }
+}
