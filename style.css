@@ -125,15 +125,161 @@ body {
 
 @media (max-width: 480px) {
     body {
-        font-size: small; /* Adjust font size for smaller screens */
+        font-family: "Fira Mono";
+        font-size: medium;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        line-height: 1.2em;
+        align-items: center;
+        height: 100vh;
+        animation: gradientAnimation 15s ease infinite;
+        color: #c5c8c6;
+        background-size: 400% 400%;
+        background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
     }
+    
+    @keyframes gradientAnimation {
+        0% {
+            background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
+        }
+        25% {
+            background: linear-gradient(to top left, yellow, rgb(155, 232, 228));
+        }
+        50% {
+            background: linear-gradient(to bottom, rgb(155, 232, 228), yellow);
+        }
+        75% {
+            background: linear-gradient(to right, rgb(155, 232, 228), yellow);
+        }
+        100% {
+            background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
+        }
+    }
+    
+    .terminal {
+        background-color: #2e3436;
+        border-radius: 8px;
+        padding: 20px;
+        width: 90%;
+        max-width: 900px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        color: #c5c8c6;
+        min-height: 80%;
+    }
+    
+    .about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2e3436;
+        padding: 10px;
+        font-size: 1em;
+        border-bottom: 2px solid #3e3e3e;
+        margin-bottom: 20px;
+    }
+    
+    .nav-icons {
+        padding-left: 10px;
+        color: #f0c674;
+    }
+    
+    .nav-path {
+        padding-right: 10px;
+        color: #81a2be;
+    }
+    
+    .header p {
+        margin: 0;
+    }
+    
+    .user {
+        color: #90e430;
+    }
+    
+    .main {
+        color: #f1f159;
+    }
+    
+    .symbol {
+        color: #f0c674;
+    }
+    
+    .command {
+        color: #81a2be;
+    }
+    
+    .body-text {
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+    
+    .userinput {
+        font-family: "Fira Mono", monospace; 
+        border: none;
+        font-size: medium;
+        background-color: transparent;
+        color: #81a2be;
+        outline: none;
+        width: 50%;
+    }
+    
+    .userinput::placeholder {
+        color: #c5c8c6;
+        opacity: 0.6;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .about {
+            font-size: 0.9em;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .terminal {
+            padding: 15px;
+        }
+    
+        .userinput {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        body {
+            font-size: small; /* Adjust font size for smaller screens */
+        }
+    
+        .terminal {
+            padding: 10px;
+            width: 95%;
+            max-width: 100%;
+        }
+    
+        .about {
+            font-size: 0.8em;
+        }
+    
+        .header p,
+        .body-text p {
+            font-size: 0.9em; /* Adjust font size for better readability */
+        }
+    
+        .userinput {
+            font-size: 0.9em;
+        }
+    }
+    
 
     .terminal {
         padding: 10px;
         width: 95%;
         max-width: 100%;
     }
-
     .about {
         font-size: 0.8em;
     }
