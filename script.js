@@ -1,37 +1,32 @@
-// Fetch the JSON data
 fetch("language.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
     let started = document.querySelector(".started");
     let content = document.querySelector(".content");
     let inputcmd = document.querySelector(".input");
 
-    // Get a random language data entry
     function getRandomLanguageData() {
       let randomIndex = Math.floor(Math.random() * data.length);
       return data[randomIndex];
     }
 
-    // Typewriter effect function
     function typewriterEffect(targetElement, text, callback) {
       let index = 0;
-      targetElement.textContent = ""; // Clear existing content
+      targetElement.textContent = "";
 
       function typewriter() {
         if (index < text.length) {
           targetElement.textContent += text.charAt(index);
           index++;
-          setTimeout(typewriter, 30); // Adjust the speed here
+          setTimeout(typewriter, 30);
         } else if (callback) {
-          setTimeout(callback, 200); // Optional delay before executing callback
+          setTimeout(callback, 200);
         }
       }
 
       typewriter();
     }
 
-    // Handle the 'resume' command
     function openresume() {
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! Opening resume...`;
@@ -39,7 +34,7 @@ fetch("language.json")
       function onTypingComplete() {
         help();
         window.open(
-          "https://www.linkedin.com/in/abhishek-raj-7b0b651a0/",
+          "https://drive.google.com/file/d/1qgG0yf0bjysc7i2CLIPqhTi9FGRkxFtx/view",
           "_blank"
         );
       }
@@ -48,22 +43,20 @@ fetch("language.json")
       typewriterEffect(content, text, onTypingComplete);
     }
 
-    // Handle the 'help' command
     function help() {
-      input.focus = true;
+      input.focus();
       const { language, hello } = getRandomLanguageData();
-      inputcmd.style.display = "none"; // Hide the input field
-      let helpMessage = `${hello} (${language})! Only the following requests will be processed: help, resume, bio, linkedin, random, joke, github, contact, clear, date. But don't try to gain access by running commands like sudo. These commands will come soon: projects, blogs, weather, news, quotes and more. `;
+      inputcmd.style.display = "none";
+      let helpMessage = `${hello} (${language})! Only the following requests will be processed: help, resume, bio, linkedin, random, joke, github, contact, clear, date. But don't try to gain access by running commands like sudo. These commands will come soon: projects, blogs, weather, news, quotes and more.`;
 
       function onTypingComplete() {
-        inputcmd.style.display = "block"; // Show the input field
+        inputcmd.style.display = "block";
       }
 
       started.style.display = "none";
       typewriterEffect(content, helpMessage, onTypingComplete);
     }
 
-    // Handle the 'bio' command
     function bio() {
       const { language, hello } = getRandomLanguageData();
       inputcmd.style.display = "none";
@@ -71,7 +64,7 @@ fetch("language.json")
 
       function onTypingComplete() {
         input.value = "help";
-        inputcmd.style.display = "block"; // Show the input field
+        inputcmd.style.display = "block";
       }
 
       started.style.display = "none";
@@ -79,7 +72,6 @@ fetch("language.json")
       typewriterEffect(content, text, onTypingComplete);
     }
 
-    // Define other command functions (e.g., linkedin, random, github, contact, date)
     function linkedin() {
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! Opening LinkedIn profile...`;
@@ -105,7 +97,6 @@ fetch("language.json")
           return response.json();
         })
         .then((facts) => {
-          console.log(facts);
           let randomIndex = Math.floor(Math.random() * facts.length);
           let text = `${hello} (${language})! ${facts[randomIndex].fact}`;
 
@@ -118,7 +109,6 @@ fetch("language.json")
           typewriterEffect(content, text, onTypingComplete);
         })
         .catch((error) => {
-          console.error("Error fetching the facts:", error);
           content.textContent =
             "Failed to load a random fact. Please try again later.";
         });
@@ -186,7 +176,6 @@ fetch("language.json")
           return response.json();
         })
         .then((sudo) => {
-          console.log(sudo);
           let randomIndex = Math.floor(Math.random() * sudo.length);
           let text = `${hello} (${language})! ${sudo[randomIndex].response}`;
 
@@ -199,7 +188,6 @@ fetch("language.json")
           typewriterEffect(content, text, onTypingComplete);
         })
         .catch((error) => {
-          console.error("Error fetching the sudos:", error);
           content.textContent =
             "Failed to load a sudos. Please try again later.";
         });
@@ -215,7 +203,6 @@ fetch("language.json")
           return response.json();
         })
         .then((jokes) => {
-          console.log(jokes);
           let randomIndex = Math.floor(Math.random() * jokes.length);
           let text = `${hello} (${language})! ${jokes[randomIndex]}`;
 
@@ -228,13 +215,11 @@ fetch("language.json")
           typewriterEffect(content, text, onTypingComplete);
         })
         .catch((error) => {
-          console.error("Error fetching the jokes:", error);
           content.textContent =
             "Failed to load a joke. Please try again later.";
         });
     }
 
-    // Set up event listener for input
     let input = document.querySelector("input");
     input.addEventListener("keydown", (event) => {
       if (event.key === "Enter") {
@@ -262,7 +247,9 @@ fetch("language.json")
         } else if (inputValue === "joke") {
           joke();
         } else if (inputValue === "clear") {
-          content.textContent = "";
+          location.reload();
+        } else if (inputValue === "weather") {
+          weather();
         } else {
           started.style.display = "none";
           content.textContent = `Command not found: ${inputValue}`;
@@ -270,6 +257,58 @@ fetch("language.json")
       }
     });
 
-    // Optionally, you could start by displaying a welcome message or initial content
+    let minimize = document.querySelector(".minimize");
+    let body = document.querySelector("body");
+
+    minimize.addEventListener("click", function () {
+      let visible = document.createElement("button");
+
+      if (terminal.style.display === "none") {
+        terminal.style.display = "block";
+        visible.style.display = "none";
+      } else {
+        terminal.style.display = "none";
+        visible.textContent = "🟢Back";
+        visible.style.display = "block";
+        visible.style.position = "fixed";
+        visible.style.bottom = "20px";
+        visible.style.right = "20px";
+        visible.style.padding = "10px 20px";
+        visible.style.fontSize = "16px";
+        visible.style.border = "none";
+        visible.style.cursor = "pointer";
+        visible.style.backgroundColor = "transparent";
+        body.appendChild(visible);
+
+        visible.addEventListener("click", function () {
+          terminal.style.display = "block";
+          visible.remove();
+        });
+      }
+    });
+
+    let minmax = document.querySelector(".minmax");
+    let terminal = document.querySelector(".terminal");
+
+    minmax.addEventListener("click", minmaxTab);
+
+    function minmaxTab() {
+      if (terminal.style.height === "100vh") {
+        terminal.style.height = "50vh";
+        terminal.style.width = "100%";
+        terminal.style.maxWidth = "900px";
+      } else {
+        terminal.style.height = "100vh";
+        terminal.style.width = "100%";
+        terminal.style.maxWidth = "100%";
+      }
+    }
+
+    let close = document.querySelector(".close");
+    close.addEventListener("click", closeTab);
+
+    function closeTab() {
+      window.close();
+    }
   })
   .catch((error) => console.error("Error fetching the JSON file:", error));

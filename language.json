@@ -1,426 +1,418 @@
 [
     {
         "language": "English",
-        "hello": "Welcome!"
+        "hello": "WELCOME!"
     },
     {
         "language": "Afrikaans",
-        "hello": "hallo"
+        "hello": "HAH-LOH"
     },
     {
         "language": "Albanian",
-        "hello": "Përshëndetje"
+        "hello": "PER-SHEN-DEH-TYEH"
     },
     {
         "language": "Amharic",
-        "hello": "ሰላም"
+        "hello": "SELAM"
     },
     {
         "language": "Arabic",
-        "hello": "مرحبا"
+        "hello": "MARHABAN"
     },
     {
         "language": "Armenian",
-        "hello": "Բարեւ"
+        "hello": "BAREV"
     },
     {
         "language": "Azerbaijani",
-        "hello": "Salam"
+        "hello": "SAH-LAHM"
     },
     {
         "language": "Basque",
-        "hello": "Kaixo"
+        "hello": "KAI-SHO"
     },
     {
         "language": "Belarusian",
-        "hello": "добры дзень"
+        "hello": "DOH-BRI DYEN'"
     },
     {
         "language": "Bengali",
-        "hello": "হ্যালো"
+        "hello": "HALO"
     },
     {
         "language": "Bosnian",
-        "hello": "zdravo"
+        "hello": "ZDRA-VO"
     },
     {
         "language": "Bulgarian",
-        "hello": "Здравейте"
+        "hello": "ZDRAV-EI-TE"
     },
     {
         "language": "Catalan",
-        "hello": "Hola"
+        "hello": "OH-LAH"
     },
     {
         "language": "Cebuano",
-        "hello": "Hello"
+        "hello": "HEH-LO"
     },
     {
         "language": "Chichewa",
-        "hello": "Moni"
+        "hello": "MOH-NEE"
     },
     {
         "language": "Chinese (Simplified)",
-        "hello": "您好"
+        "hello": "NEE HOW"
     },
     {
         "language": "Chinese (Traditional)",
-        "hello": "您好"
+        "hello": "NEE HOW"
     },
     {
         "language": "Corsican",
-        "hello": "Bonghjornu"
+        "hello": "BON-JOR-NU"
     },
     {
         "language": "Croatian",
-        "hello": "zdravo"
+        "hello": "ZDRA-VO"
     },
     {
         "language": "Czech",
-        "hello": "Ahoj"
+        "hello": "AH-HOI"
     },
     {
         "language": "Danish",
-        "hello": "Hej"
+        "hello": "HEY"
     },
     {
         "language": "Dutch",
-        "hello": "Hallo"
-    },
-    {
-        "language": "English",
-        "hello": "Hello"
+        "hello": "HAH-LOH"
     },
     {
         "language": "Esperanto",
-        "hello": "Saluton"
+        "hello": "SAH-LOO-TON"
     },
     {
         "language": "Estonian",
-        "hello": "Tere"
+        "hello": "TEH-REH"
     },
     {
         "language": "Filipino",
-        "hello": "Kumusta"
+        "hello": "KOO-MOOS-TAH"
     },
     {
         "language": "Finnish",
-        "hello": "Hei"
+        "hello": "HAY"
     },
     {
         "language": "French",
-        "hello": "Bonjour"
+        "hello": "BOHN-ZHOOR"
     },
     {
         "language": "Frisian",
-        "hello": "Hello"
+        "hello": "HEH-LO"
     },
     {
         "language": "Galician",
-        "hello": "Ola"
+        "hello": "OH-LAH"
     },
     {
         "language": "Georgian",
-        "hello": "გამარჯობა"
+        "hello": "GAH-MAR-JOH-BA"
     },
     {
         "language": "German",
-        "hello": "Hallo"
+        "hello": "HAH-LOH"
     },
     {
         "language": "Greek",
-        "hello": "Γεια σας"
+        "hello": "YEA SAHS"
     },
     {
         "language": "Gujarati",
-        "hello": "હેલો"
+        "hello": "HEH-LO"
     },
     {
         "language": "Haitian Creole",
-        "hello": "Bonjou"
+        "hello": "BON-ZHOO"
     },
     {
         "language": "Hausa",
-        "hello": "Sannu"
+        "hello": "SAH-NOO"
     },
     {
         "language": "Hawaiian",
-        "hello": "Alohaʻoe"
+        "hello": "AH-LOH-AH"
     },
     {
         "language": "Hebrew",
-        "hello": "שלום"
+        "hello": "SHA-LOM"
     },
     {
         "language": "Hindi",
-        "hello": "नमस्ते"
+        "hello": "NAH-MAS-TEH"
     },
     {
         "language": "Hmong",
-        "hello": "Nyob zoo"
+        "hello": "NYOB ZOO"
     },
     {
         "language": "Hungarian",
-        "hello": "Helló"
+        "hello": "HEL-LOH"
     },
     {
         "language": "Icelandic",
-        "hello": "Halló"
+        "hello": "HAL-LOH"
     },
     {
         "language": "Igbo",
-        "hello": "Ndewo"
+        "hello": "N-DEH-WO"
     },
     {
         "language": "Indonesian",
-        "hello": "Halo"
+        "hello": "HAH-LOH"
     },
     {
         "language": "Irish",
-        "hello": "Dia duit"
+        "hello": "DEE-UH GWIT"
     },
     {
         "language": "Italian",
-        "hello": "Ciao"
+        "hello": "CHOW"
     },
     {
         "language": "Japanese",
-        "hello": "こんにちは"
+        "hello": "KON-NI-CHI-WA"
     },
     {
         "language": "Javanese",
-        "hello": "Hello"
+        "hello": "HEH-LO"
     },
     {
         "language": "Kannada",
-        "hello": "ಹಲೋ"
+        "hello": "HA-LOH"
     },
     {
         "language": "Kazakh",
-        "hello": "Сәлем"
+        "hello": "SAH-LEHM"
     },
     {
         "language": "Khmer",
-        "hello": "ជំរាបសួរ"
+        "hello": "CHOM-REAP-SUA"
     },
     {
         "language": "Korean",
-        "hello": "안녕하세요."
+        "hello": "AN-NYEONG-HA-SE-YO"
     },
     {
         "language": "Kurdish (Kurmanji)",
-        "hello": "Hello"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Kyrgyz",
-        "hello": "салам"
+        "hello": "SAH-LAHM"
     },
     {
         "language": "Lao",
-        "hello": "ສະບາຍດີ"
+        "hello": "SA-BAI-DEE"
     },
     {
         "language": "Latin",
-        "hello": "salve"
+        "hello": "SAL-VEH"
     },
     {
         "language": "Latvian",
-        "hello": "Labdien!"
+        "hello": "LAB-DYEN"
     },
     {
         "language": "Lithuanian",
-        "hello": "Sveiki"
+        "hello": "SVEH-KEE"
     },
     {
         "language": "Luxembourgish",
-        "hello": "Moien"
+        "hello": "MOY-EN"
     },
     {
         "language": "Macedonian",
-        "hello": "Здраво"
+        "hello": "ZDRA-VO"
     },
     {
         "language": "Malagasy",
-        "hello": "Hello"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Malay",
-        "hello": "Hello"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Malayalam",
-        "hello": "ഹലോ"
+        "hello": "HA-LOH"
     },
     {
         "language": "Maltese",
-        "hello": "Hello"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Maori",
-        "hello": "Hiha"
+        "hello": "HEE-HAH"
     },
     {
         "language": "Marathi",
-        "hello": "हॅलो"
+        "hello": "HA-LOH"
     },
     {
         "language": "Mongolian",
-        "hello": "Сайн байна уу"
+        "hello": "SAIN BAI-NA OO"
     },
     {
         "language": "Myanmar (Burmese)",
-        "hello": "မင်္ဂလာပါ"
+        "hello": "MING-GUH-LAH BAH"
     },
     {
         "language": "Nepali",
-        "hello": "नमस्ते"
+        "hello": "NAH-MAS-TEH"
     },
     {
         "language": "Norwegian",
-        "hello": "Hallo"
+        "hello": "HAH-LOH"
     },
     {
         "language": "Pashto",
-        "hello": "سلام"
+        "hello": "SA-LAM"
     },
     {
         "language": "Persian",
-        "hello": "سلام"
+        "hello": "SA-LAM"
     },
     {
         "language": "Polish",
-        "hello": "Cześć"
+        "hello": "CHEH-SHCH"
     },
     {
         "language": "Portuguese",
-        "hello": "Olá"
+        "hello": "OH-LAH"
     },
     {
         "language": "Punjabi",
-        "hello": "ਹੈਲੋ"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Romanian",
-        "hello": "Alo"
+        "hello": "AH-LOH"
     },
     {
         "language": "Russian",
-        "hello": "привет"
+        "hello": "PREE-VYET"
     },
     {
         "language": "Samoan",
-        "hello": "Talofa"
+        "hello": "TA-LO-FA"
     },
     {
         "language": "Scots Gaelic",
-        "hello": "Hello"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Serbian",
-        "hello": "Здраво"
+        "hello": "ZDRA-VO"
     },
     {
         "language": "Sesotho",
-        "hello": "Hello"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Shona",
-        "hello": "Hello"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Sindhi",
-        "hello": "هيلو"
+        "hello": "HEE-LOH"
     },
     {
         "language": "Sinhala",
-        "hello": "හෙලෝ"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Slovak",
-        "hello": "ahoj"
+        "hello": "AH-HOY"
     },
     {
         "language": "Slovenian",
-        "hello": "Pozdravljeni"
+        "hello": "POHZ-DRAH-VLYEN"
     },
     {
         "language": "Somali",
-        "hello": "Hello"
+        "hello": "HEH-LOH"
     },
     {
         "language": "Spanish",
-        "hello": "Hola"
+        "hello": "OH-LAH"
     },
     {
         "language": "Sundanese",
-        "hello": "halo"
+        "hello": "HA-LOH"
     },
     {
         "language": "Swahili",
-        "hello": "Sawa"
+        "hello": "HABARI"
     },
     {
         "language": "Swedish",
-        "hello": "Hallå"
+        "hello": "HEJ"
     },
     {
         "language": "Tajik",
-        "hello": "Салом"
+        "hello": "SALOM"
     },
     {
         "language": "Tamil",
-        "hello": "ஹலோ"
+        "hello": "HA-LOH"
+    },
+    {
+        "language": "Tatar",
+        "hello": "SA-LAM"
     },
     {
         "language": "Telugu",
-        "hello": "హలో"
+        "hello": "HA-LOH"
     },
     {
         "language": "Thai",
-        "hello": "สวัสดี"
+        "hello": "SA-WAAT-DEE"
     },
     {
         "language": "Turkish",
-        "hello": "Merhaba"
+        "hello": "MER-HA-BA"
     },
     {
-        "language": "Ukranian",
-        "hello": "Здрастуйте"
+        "language": "Ukrainian",
+        "hello": "PRY-VIT"
     },
     {
         "language": "Urdu",
-        "hello": "ہیلو"
+        "hello": "ASSALAM-U-ALAIKUM"
     },
     {
         "language": "Uzbek",
-        "hello": "Salom"
+        "hello": "SALOM"
     },
     {
         "language": "Vietnamese",
-        "hello": "Xin chào"
+        "hello": "CHAO"
     },
     {
         "language": "Welsh",
-        "hello": "Helo"
+        "hello": "HELLO"
     },
     {
         "language": "Xhosa",
-        "hello": "Sawubona"
-    },
-    {
-        "language": "Yiddish",
-        "hello": "העלא"
+        "hello": "MOLWANI"
     },
     {
         "language": "Yoruba",
-        "hello": "Kaabo"
+        "hello": "BOWA"
     },
     {
         "language": "Zulu",
-        "hello": "Sawubona"
+        "hello": "SAN-BONANI"
     }
 ]
-
-
-
-

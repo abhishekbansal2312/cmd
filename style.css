@@ -1,6 +1,6 @@
 body {
     font-family: "Fira Mono";
-    font-size: medium;
+    font-size: large;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -10,29 +10,23 @@ body {
     align-items: center;
     height: 100vh;
     animation: gradientAnimation 15s ease infinite;
-    color: #c5c8c6;
     background-size: 400% 400%;
-    background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
-}
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 
-@keyframes gradientAnimation {
-    0% {
-        background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
-    }
-    25% {
-        background: linear-gradient(to top left, yellow, rgb(155, 232, 228));
-    }
-    50% {
-        background: linear-gradient(to bottom, rgb(155, 232, 228), yellow);
-    }
-    75% {
-        background: linear-gradient(to right, rgb(155, 232, 228), yellow);
-    }
-    100% {
-        background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
-    }
 }
-
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .terminal {
     background-color: #2e3436;
     border-radius: 8px;
@@ -41,8 +35,10 @@ body {
     max-width: 900px;
     height: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    color: #c5c8c6;
+    color: white;
     min-height: 80%;
+    opacity: 0.9;
+    /* line-height: 2em; */
 }
 
 .about {
@@ -79,16 +75,24 @@ body {
 }
 
 .symbol {
-    color: #f0c674;
+    color:red;
 }
 
 .command {
     color: #81a2be;
 }
-
+.close{
+    cursor: pointer;
+}
+.minmax{
+    cursor: pointer;
+}
+.minimize{
+    cursor: pointer;
+}
 .body-text {
     margin-top: 10px;
-    line-height: 1.5;
+    line-height: 1.7em;
 }
 
 .userinput {
@@ -157,6 +161,9 @@ body {
         100% {
             background: linear-gradient(to bottom right, rgb(155, 232, 228), yellow);
         }
+    }
+    .close{
+        cursor: pointer;
     }
     
     .terminal {
