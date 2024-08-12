@@ -4,6 +4,12 @@ fetch("language.json")
     let started = document.querySelector(".started");
     let content = document.querySelector(".content");
     let inputcmd = document.querySelector(".input");
+    let command = document.querySelector(".command");
+
+    window.addEventListener("load", function () {
+      const terminal = document.querySelector(".terminal");
+      terminal.classList.add("visible");
+    });
 
     function getRandomLanguageData() {
       let randomIndex = Math.floor(Math.random() * data.length);
@@ -28,6 +34,7 @@ fetch("language.json")
     }
 
     function openresume() {
+      command.textContent = "Executed Command: resume";
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! Opening resume...`;
 
@@ -44,6 +51,7 @@ fetch("language.json")
     }
 
     function help() {
+      command.textContent = "Executed Command: help";
       input.focus();
       const { language, hello } = getRandomLanguageData();
       inputcmd.style.display = "none";
@@ -58,6 +66,7 @@ fetch("language.json")
     }
 
     function bio() {
+      command.textContent = "Executed Command: bio";
       const { language, hello } = getRandomLanguageData();
       inputcmd.style.display = "none";
       let text = `${hello} (${language})! Aspiring Full Stack Developer with a keen interest in web development and a solid understanding of both frontend and backend technologies. Skilled in JavaScript, C++, and Python, with experience in ReactJS, NodeJS, and various web development tools. Currently interning at Explor.io, where I contribute to building and maintaining web applications. Committed to continuous learning and improvement, with a few projects and achievements that reflect my dedication to creating user-friendly and effective solutions.`;
@@ -73,6 +82,7 @@ fetch("language.json")
     }
 
     function linkedin() {
+      command.textContent = "Executed Command: linkedin";
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! Opening LinkedIn profile...`;
 
@@ -88,6 +98,7 @@ fetch("language.json")
     }
 
     function random() {
+      command.textContent = "Executed Command: random";
       const { language, hello } = getRandomLanguageData();
       fetch("fact.json")
         .then((response) => {
@@ -115,6 +126,7 @@ fetch("language.json")
     }
 
     function github() {
+      command.textContent = "Executed Command: github";
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! Opening GitHub profile...`;
 
@@ -127,6 +139,7 @@ fetch("language.json")
     }
 
     function contact() {
+      command.textContent = "Executed Command: contact";
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! You can contact me via email at abhishekbansal2312@gmail.com. You may be looking for the following commands: linkedin, github`;
 
@@ -140,6 +153,7 @@ fetch("language.json")
     }
 
     function date() {
+      command.textContent = "Executed Command: date";
       const { language, hello } = getRandomLanguageData();
       let date = new Date();
       let options = {
@@ -167,6 +181,7 @@ fetch("language.json")
     }
 
     function sudo() {
+      command.textContent = "Executed Command: sudo";
       const { language, hello } = getRandomLanguageData();
       fetch("sudo.json")
         .then((response) => {
@@ -194,6 +209,7 @@ fetch("language.json")
     }
 
     function joke() {
+      command.textContent = "Executed Command: joke";
       const { language, hello } = getRandomLanguageData();
       fetch("jokes.json")
         .then((response) => {
@@ -221,6 +237,7 @@ fetch("language.json")
     }
 
     let input = document.querySelector("input");
+
     input.addEventListener("keydown", (event) => {
       if (event.key === "Enter") {
         event.preventDefault();

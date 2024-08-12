@@ -1,6 +1,6 @@
 body {
     font-family: "Fira Mono";
-    font-size: large;
+    font-size: medium;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -57,9 +57,10 @@ body {
     color: #f0c674;
 }
 
+
 .nav-path {
     padding-right: 10px;
-    color: #81a2be;
+    color: #f439f1;
 }
 
 .header p {
@@ -102,7 +103,9 @@ body {
     background-color: transparent;
     color: #81a2be;
     outline: none;
-    width: 50%;
+    width: 50%; /* Make the input box take up the full width of its container */
+  overflow-wrap: break-word; /* Break long words onto the next line */
+
 }
 
 .userinput::placeholder {
@@ -177,7 +180,6 @@ body {
         color: #c5c8c6;
         min-height: 80%;
     }
-    
     .about {
         display: flex;
         justify-content: space-between;
@@ -300,3 +302,20 @@ body {
         font-size: 0.9em;
     }
 }
+
+/* Terminal initial state, hidden at the bottom with no opacity */
+/* Terminal initial state, hidden at the bottom with no opacity */
+.terminal {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    transition: opacity 600ms ease-in-out, background-color 600ms ease-in-out;  
+  }
+  
+  /* Terminal state after animation */
+  .terminal.visible {
+    opacity: 1; 
+  }
+  
