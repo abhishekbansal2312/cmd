@@ -5,6 +5,9 @@ fetch("language.json")
     let content = document.querySelector(".content");
     let inputcmd = document.querySelector(".input");
     let command = document.querySelector(".command");
+    const cursor = document.querySelector(".cursor");
+
+    cursor.style.display = "none";
 
     window.addEventListener("load", function () {
       const terminal = document.querySelector(".terminal");
@@ -15,7 +18,6 @@ fetch("language.json")
       let randomIndex = Math.floor(Math.random() * data.length);
       return data[randomIndex];
     }
-
     function typewriterEffect(targetElement, text, callback) {
       let index = 0;
       targetElement.textContent = "";
@@ -26,7 +28,8 @@ fetch("language.json")
           index++;
           setTimeout(typewriter, 30);
         } else if (callback) {
-          setTimeout(callback, 200);
+          cursor.classList.add("blink");
+          setTimeout(callback, 1800);
         }
       }
 
@@ -34,11 +37,14 @@ fetch("language.json")
     }
 
     function openresume() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: resume";
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! Opening resume...`;
 
       function onTypingComplete() {
+        cursor.style.display = "none";
+        cursor.classList.remove("blink");
         help();
         window.open(
           "https://drive.google.com/file/d/1qgG0yf0bjysc7i2CLIPqhTi9FGRkxFtx/view",
@@ -51,6 +57,7 @@ fetch("language.json")
     }
 
     function help() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: help";
       input.focus();
       const { language, hello } = getRandomLanguageData();
@@ -58,6 +65,8 @@ fetch("language.json")
       let helpMessage = `${hello} (${language})! Only the following requests will be processed: help, resume, bio, linkedin, random, joke, github, contact, clear, date. But don't try to gain access by running commands like sudo. These commands will come soon: projects, blogs, weather, news, quotes and more.`;
 
       function onTypingComplete() {
+        cursor.style.display = "none";
+        cursor.classList.remove("blink");
         inputcmd.style.display = "block";
       }
 
@@ -66,6 +75,7 @@ fetch("language.json")
     }
 
     function bio() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: bio";
       const { language, hello } = getRandomLanguageData();
       inputcmd.style.display = "none";
@@ -82,11 +92,14 @@ fetch("language.json")
     }
 
     function linkedin() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: linkedin";
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! Opening LinkedIn profile...`;
 
       function onTypingComplete() {
+        cursor.style.display = "none";
+        cursor.classList.remove("blink");
         window.open(
           "https://www.linkedin.com/in/abhishek-bansal-03ba6b267/",
           "_blank"
@@ -98,6 +111,7 @@ fetch("language.json")
     }
 
     function random() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: random";
       const { language, hello } = getRandomLanguageData();
       fetch("fact.json")
@@ -112,6 +126,8 @@ fetch("language.json")
           let text = `${hello} (${language})! ${facts[randomIndex].fact}`;
 
           function onTypingComplete() {
+            cursor.style.display = "none";
+            cursor.classList.remove("blink");
             input.value = "help";
             inputcmd.style.display = "block";
           }
@@ -126,11 +142,14 @@ fetch("language.json")
     }
 
     function github() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: github";
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! Opening GitHub profile...`;
 
       function onTypingComplete() {
+        cursor.style.display = "none";
+        cursor.classList.remove("blink");
         window.open("https://github.com/abhishekbansal2312", "_blank");
       }
 
@@ -139,11 +158,14 @@ fetch("language.json")
     }
 
     function contact() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: contact";
       const { language, hello } = getRandomLanguageData();
       let text = `${hello} (${language})! You can contact me via email at abhishekbansal2312@gmail.com. You may be looking for the following commands: linkedin, github`;
 
       function onTypingComplete() {
+        cursor.style.display = "none";
+        cursor.classList.remove("blink");
         input.value = "help";
         inputcmd.style.display = "block";
       }
@@ -153,6 +175,7 @@ fetch("language.json")
     }
 
     function date() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: date";
       const { language, hello } = getRandomLanguageData();
       let date = new Date();
@@ -171,6 +194,8 @@ fetch("language.json")
       let text = `${hello} (${language})! The current Date-Time Stamp is: ${currentDate}.`;
 
       function onTypingComplete() {
+        cursor.style.display = "none";
+        cursor.classList.remove("blink");
         input.value = "help";
         inputcmd.style.display = "block";
       }
@@ -181,6 +206,7 @@ fetch("language.json")
     }
 
     function sudo() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: sudo";
       const { language, hello } = getRandomLanguageData();
       fetch("sudo.json")
@@ -195,6 +221,8 @@ fetch("language.json")
           let text = `${hello} (${language})! ${sudo[randomIndex].response}`;
 
           function onTypingComplete() {
+            cursor.style.display = "none";
+            cursor.classList.remove("blink");
             input.value = "help";
             inputcmd.style.display = "block";
           }
@@ -209,6 +237,7 @@ fetch("language.json")
     }
 
     function joke() {
+      cursor.style.display = "inline-block";
       command.textContent = "Executed Command: joke";
       const { language, hello } = getRandomLanguageData();
       fetch("jokes.json")
@@ -223,6 +252,8 @@ fetch("language.json")
           let text = `${hello} (${language})! ${jokes[randomIndex]}`;
 
           function onTypingComplete() {
+            cursor.style.display = "none";
+            cursor.classList.remove("blink");
             input.value = "help";
             inputcmd.style.display = "block";
           }

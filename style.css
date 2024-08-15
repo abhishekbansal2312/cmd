@@ -16,6 +16,8 @@ body {
 	animation: gradient 15s ease infinite;
 
 }
+
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -27,6 +29,29 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+.cursor {
+    display: inline-block;
+    width: 8px; /* Increase cursor width */
+    height: 1em;
+    background: #fff; /* Cursor color */
+    /* position: absolute; */
+    /* animation: blink-caret 0.75s step-end infinite; */
+}
+
+.blink {
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+@keyframes blink-caret {
+    from, to { background: transparent; }
+    50% { background: #fff; }
+}
+
 .terminal {
     background-color: #2e3436;
     border-radius: 8px;
@@ -129,6 +154,8 @@ body {
         width: 100%;
     }
 }
+
+
 
 @media (max-width: 480px) {
     body {
@@ -311,7 +338,7 @@ body {
     transform: translateX(-50%);
     opacity: 0;
 
-    transition: opacity 600ms ease-in-out, background-color 600ms ease-in-out;  
+    transition: opacity 1s ease-in-out, background-color 600ms ease-in-out;  
   }
   
   /* Terminal state after animation */
