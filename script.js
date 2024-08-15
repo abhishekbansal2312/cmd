@@ -6,6 +6,8 @@ fetch("language.json")
     let inputcmd = document.querySelector(".input");
     let command = document.querySelector(".command");
     const cursor = document.querySelector(".cursor");
+    let terminal = document.querySelector(".terminal");
+    terminal.style.display = "block";
 
     cursor.style.display = "none";
 
@@ -336,7 +338,6 @@ fetch("language.json")
     });
 
     let minmax = document.querySelector(".minmax");
-    let terminal = document.querySelector(".terminal");
 
     minmax.addEventListener("click", minmaxTab);
 
