@@ -7,8 +7,7 @@ fetch("language.json")
     let command = document.querySelector(".command");
     const cursor = document.querySelector(".cursor");
     let terminal = document.querySelector(".terminal");
-    terminal.style.display = "block";
-
+ 
     cursor.style.display = "none";
 
     window.addEventListener("load", function () {

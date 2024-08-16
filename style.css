@@ -332,7 +332,7 @@ body {
 
 /* Terminal initial state, hidden at the bottom with no opacity */
 /* Terminal initial state, hidden at the bottom with no opacity */
-.terminal {
+/* .terminal {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -342,7 +342,6 @@ body {
   }
   
   /* Terminal state after animation */
-  .terminal.visible {
+  /* .terminal.visible {
     opacity: 1; 
-  }
-  
+  } */
