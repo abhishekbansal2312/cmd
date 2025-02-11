@@ -7,7 +7,7 @@ fetch("language.json")
     let command = document.querySelector(".command");
     const cursor = document.querySelector(".cursor");
     let terminal = document.querySelector(".terminal");
- 
+
     cursor.style.display = "none";
 
     window.addEventListener("load", function () {
@@ -48,7 +48,7 @@ fetch("language.json")
         cursor.classList.remove("blink");
         help();
         window.open(
-          "https://drive.google.com/file/d/1qgG0yf0bjysc7i2CLIPqhTi9FGRkxFtx/view",
+          "https://drive.google.com/file/d/19ijlXx5rz4cL7JCOLyzJDWonGT0qPSXL/view?usp=sharing",
           "_blank"
         );
       }
